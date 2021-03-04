@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("OUTPUT #1\n\n");
+    //declaration
+    int num1, num2, sum, pro, dif;
+    float quo;
+    printf("Enter 2 Integers: \n");
+    scanf("%d %d", &num1, &num2);
+
+     //operation
+    sum = num1 + num2;
+    quo = num1 / num2;
+    dif = num1 - num2;
+    pro = num1 * num2;
+
+    //output
+    printf("These are the answers to the given numbers:\nSUM = %d \nPRODUCT = %d \nQUOTIENT = %0.1f \nDIFFERENCE = %d \n\n", sum, pro, quo, dif);
+
+    //problem2
+    printf("OUTPUT #2\n\n");
+
+    printf("Enter 2 Integers: \n");
+
+    //declaration
+    int num3, num4, sum1, pro1, dif1;
+    float quo1;
+    scanf("%d %d", &num3, &num4);
+
+
+    //operation
+    sum1 = num3 + num4;
+    pro1 = num3 * num4;
+    quo1 = num3 / num4;
+    dif1 = num3 - num4;
+
+
+    //output
+    printf("The the answers to the given numbers:\nSUM = %d\nPRODUCT = %d\nQUOTIENT = %0.1f\nDIFFERENCE = %d\n", sum1, pro1, quo1, dif1);
+
+    return 0;
+}
